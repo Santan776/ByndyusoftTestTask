@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByndyusoftTestTask", "ByndyusoftTestTask\ByndyusoftTestTask.csproj", "{9AEC6308-C436-4212-A6BF-E4A0AB95EE93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByndyusoftTestTask.Tests", "ByndyusoftTestTask.Tests\ByndyusoftTestTask.Tests.csproj", "{FB3723A5-39CB-4E49-BD49-AB0A2A84A668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AEC6308-C436-4212-A6BF-E4A0AB95EE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEC6308-C436-4212-A6BF-E4A0AB95EE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEC6308-C436-4212-A6BF-E4A0AB95EE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEC6308-C436-4212-A6BF-E4A0AB95EE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB3723A5-39CB-4E49-BD49-AB0A2A84A668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB3723A5-39CB-4E49-BD49-AB0A2A84A668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB3723A5-39CB-4E49-BD49-AB0A2A84A668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB3723A5-39CB-4E49-BD49-AB0A2A84A668}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
