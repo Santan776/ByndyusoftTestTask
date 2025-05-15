@@ -48,4 +48,12 @@ public class ArrayUtilsTests
         
         Assert.Throws<ArgumentException>(() => ArrayUtils.SumOfTwoSmallest(numbers));
     }
+    
+    [Test]
+    public void SumOfTwoSmallest_Overflow_ThrowsOverflowException()
+    {
+        int[] numbers = { int.MaxValue, int.MaxValue };
+        
+        Assert.Throws<OverflowException>(() => ArrayUtils.SumOfTwoSmallest(numbers));
+    }
 }

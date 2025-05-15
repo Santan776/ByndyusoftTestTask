@@ -27,6 +27,6 @@ public static class ArrayUtils
             }
         }
 
-        return smallest + secondSmallest;
+        return checked(smallest + secondSmallest);
     }
 }
